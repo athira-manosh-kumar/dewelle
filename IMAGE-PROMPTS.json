@@ -1,0 +1,43 @@
+{
+  "generator": "Built-in Image Generation",
+  "assets": [
+    {
+      "file": "assets/hero.webp",
+      "prompt": "Use case: product-mockup. Create a premium modern skincare campaign photograph for the fictional brand Dewelle. Landscape composition, 3:2. Three cohesive packages on a fluid sculptural pale sage plinth: tall frosted sage cleanser pump bottle, frosted peach essence bottle, squat sage gel cream jar. Labels in dark forest clean lowercase sans serif reading exactly 'dewelle', with very small product text 'cloud cleanser', 'dew essence', 'petal gel cream'. Large simple perfectly spelled brand text d-e-w-e-l-l-e. Background peach studio with bright diffused daylight and soft sun shadows. Realistic glass, cream ceramic, dewdrops, glossy editorial art direction, contemporary playful geometry, one small lilac sphere and folded citrus-yellow ribbon. Product positions dynamic but physically believable, roomy composition all packages visible. No extra logos, no certifications, no webpage or border.",
+      "revision_prompt": "Use case: precise-object-edit. Adapt this Dewelle campaign photograph to a square 1:1 hero composition. Preserve the realistic sage cleanser pump bottle, peach essence bottle and sage gel cream jar, their exact lowercase 'dewelle' packaging labels, warm peach backdrop, cream-sage sculptural platform, lilac sphere and yellow ribbon. Remove ONLY the large free-floating 'dewelle' word in the background. Recompose three packages as a cohesive centered group, with all package edges visible and generous breathing room around them, especially top and bottom. Maintain bright modern editorial photography and beautiful real glass texture. No new objects, no extra text, no border, no webpage.",
+      "generation_mode": "Built-in image edit"
+    },
+    {
+      "file": "assets/cleanser.webp",
+      "prompt": "Use case: product-mockup. Square ecommerce studio photograph of one fictional Dewelle Cloud Cleanser: a tall pale-sage frosted pump bottle with dark sage pump, clean lowercase dark forest sans serif label exactly 'dewelle' then small 'cloud cleanser' then '150 ml'. Bottle centered fully visible with ample margins, three-quarter frontal view, pale sage seamless backdrop and cream curved plinth. Beautiful glossy soft light, real material texture, tiny condensation droplets, modern playful Korean skincare campaign. No other products or logos, no certification seals, no extra text."
+    },
+    {
+      "file": "assets/toner.webp",
+      "prompt": "Use case: product-mockup. Square ecommerce studio photograph of one fictional Dewelle Dew Essence: a tall slim frosted pale peach translucent bottle with ivory screw cap, clean lowercase dark forest sans serif label exactly 'dewelle' then small 'dew essence' then '120 ml'. Bottle centered fully visible with ample margins, three-quarter frontal view on warm peach backdrop and cream curved plinth. Beautiful bright soft light, realistic liquid and glass, one small clear water ripple beside bottle, modern playful Korean skincare campaign. No other products or logos, no certification seals, no extra text."
+    },
+    {
+      "file": "assets/gel.webp",
+      "prompt": "Use case: product-mockup. Square ecommerce studio photograph of one fictional Dewelle Petal Gel Cream: a squat wide frosted sage green jar with flat sage lid, clean lowercase dark forest sans serif label exactly 'dewelle' then small 'petal gel cream' then '50 ml'. Jar centered fully visible with ample margins, three-quarter frontal view, pale sage seamless backdrop and lilac sculptural pedestal. Beautiful bright soft light, subtle glossy highlights, premium realistic glass and cosmetic packaging. Modern playful Korean skincare campaign. No other products or logos, no certification seals, no extra text."
+    },
+    {
+      "file": "assets/cream.webp",
+      "prompt": "Use case: product-mockup. Square ecommerce studio photograph of one fictional Dewelle Soft Cocoon Cream: a squat wide frosted muted peach jar with flat warm ivory lid, clean lowercase dark forest sans serif label exactly 'dewelle' then small 'soft cocoon cream' then '50 ml'. Jar centered fully visible with ample margins, three-quarter frontal view on peach seamless background with a folded lilac silk ribbon beside it. Beautiful bright soft light, premium realistic glass and cosmetic packaging, modern playful Korean skincare campaign. No other products or logos, no certification seals, no extra text."
+    },
+    {
+      "file": "assets/balm.webp",
+      "prompt": "Use case: product-mockup. Square ecommerce studio photograph of one fictional Dewelle Melt Away Balm: a squat wide frosted creamy pale-yellow jar with flat ivory lid, clean lowercase dark forest sans serif label exactly 'dewelle' then small 'melt away balm' then '80 ml'. Jar centered fully visible with ample margins, three-quarter frontal view on butter-yellow background and cream sculptural pedestal. Beautiful bright soft studio light, premium realistic cosmetic packaging with one glossy clear sphere beside it, modern playful Korean skincare campaign. No other products or logos, no certification seals, no extra text."
+    },
+    {
+      "file": "assets/serum.webp",
+      "prompt": "Use case: product-mockup. Square ecommerce studio photograph of one fictional Dewelle Quiet Dew Serum: a small rounded frosted sage glass dropper bottle with ivory collar and dark sage rubber pipette bulb, clean lowercase dark forest sans serif label exactly 'dewelle' then small 'quiet dew serum' then '30 ml'. Bottle centered fully visible with ample margins, three-quarter frontal view on lilac seamless background and cream platform, a translucent water bubble beside it. Beautiful bright soft light, premium realistic glass and cosmetic packaging, modern playful Korean skincare campaign. No other products or logos, no certification seals, no extra text."
+    },
+    {
+      "file": "assets/ritual.webp",
+      "prompt": "Use case: photorealistic-natural. Portrait beauty editorial photograph for a modern soft but jazzy skincare website. An adult East Asian woman around 28 with warm natural skin texture, joyful easy expression, hair slicked casually back, wearing a simple lilac sleeveless top, gently resting fingertips on her cheek in bright morning window light. Crop from chest to above head, slight spontaneous tilt, peach studio background, subtle sage shadow. Realistic pores and natural complexion, no airbrushed perfection, no before/after comparison. Premium magazine photography, playful approachable energy, no text, no logos, no product medical claims."
+    },
+    {
+      "file": "assets/texture.webp",
+      "prompt": "Use case: product-mockup. Landscape macro beauty editorial photograph of pale ivory moisturizer swoosh, a translucent pale pink gel ribbon and round clear serum drops on glossy lilac surface. Real textures and tactile reflections, bright soft side light, highly contemporary playful composition, negative space between the three textures, premium skincare campaign, no packaging, no text, no logos."
+    }
+  ]
+}

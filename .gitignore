@@ -1,0 +1,8 @@
+.DS_Store
+.openai/
+node_modules/
+deployment.tar.gz
+asset-sources.json
+asset-review.jpg
+preview*.jpg
+hero-edit.json
