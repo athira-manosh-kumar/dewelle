@@ -6,3 +6,11 @@ asset-sources.json
 asset-review.jpg
 preview*.jpg
 hero-edit.json
+
+.imagegen/
+
+catalog-review-*.jpg
+catalog-preview.jpg
+
+.imagegen-combos/
+combos-review-*.jpg

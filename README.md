@@ -1,45 +1,37 @@
 # Dewelle
 
-A modern, animated Korean skincare brand concept built with HTML, CSS and JavaScript.
+A modern Korean beauty storefront concept with original AI-generated packaging photography and the Dew Buddy mascot. Built with HTML, CSS and vanilla JavaScript.
 
-## Preview
+## Explore
 
-Serve this folder with any static web server, then open `index.html`. There is no dependency installation or build step. Files also work from a repository-based static host such as GitHub Pages.
+- 86 products across skincare, sun care, masks, eye/lip care, everyday tint, patches, body care, haircare, grooming, accessories and discovery minis.
+- Face, Hair, Body, Women’s Edit and Men’s Edit in the Shop menu and catalogue, plus skin/hair type, ingredient, category, search and price filters. Twelve products load at a time.
+- Dedicated product pages with proposed skin/hair matches, shade choice, ingredient direction and use-after/follow-with guidance.
+- 14 ready combos, each with one styled group photograph, same-category product swaps, required shade selection and live set totals.
+- Morning/evening beginner guidance for all genders and a Men's Edit for shaving and beard care.
+- Wishlist, editable shopping bag and demo checkout. Different shades remain separate bag items. Local storage saves bag/wishlist only on the current browser.
+- A cinematic animated hero, scroll reveals, pointer depth, floating dew shapes and mascot motion; device reduced-motion preferences are respected.
 
-## Experience
+## Local preview
 
-- Six original concept products, photographic packaging assets, product details and sample ingredient lists.
-- Category filters, search, price sorting and helpful empty states.
-- A three-question preference-based ritual builder with editable steps, budget explanations and clear totals.
-- Shopping bag with quantities, removal, local-browser persistence and a demo checkout.
-- Skin Notes articles and information about the prototype.
+From this directory, run `python3 -m http.server 8770 --bind 127.0.0.1`, then visit http://localhost:8770/.
 
-## Motion
+Use `node verify.cjs` for catalogue and shopping-logic checks. Browser visual testing is a separate step; passing these checks does not verify rendered layout or interaction behavior.
 
-Oversized animated hero typography, a continuous marquee, floating accents, scroll reveals, hover-responsive product cards, magnetic desktop buttons, button ripples, a bag feedback animation, animated dialogs, a scroll progress bar and active section navigation. Decorative motion can be paused with the persistent Motion control. Device reduced-motion settings are respected. Touch interaction remains direct, with hover effects limited to appropriate pointer devices.
+## Source files
 
-## Concept boundaries
+- `catalog.json`: product and combo source data.
+- `catalog.js`: browser-ready copy of the same catalogue.
+- `CATALOGUE.md`: readable product list.
+- `CATALOG-IMAGE-PROMPTS.json`: final packaging-photo prompts and retouch instructions.
+- `assets/catalog/`: 86 optimized product photos.
+- `assets/combos/`: 14 complete set photographs.
+- `CATALOGUE-SOURCES.md` and `IMAGE-USAGE.md`: references and image provenance.
 
-Dewelle is a fictional brand. Products, formulas, packaging, prices and delivery terms are illustrative. The website places no orders, takes no payments and collects no personal information. The shopping bag and motion preference are stored only in the browser and can be cleared. Images are generated concept photography, not evidence of manufactured products or real customers. No reviews, endorsements, scarcity, clinical outcomes or certifications are invented.
+## Concept status
 
-## Structure
+Dewelle is fictional. Products, skin/hair suitability, shades, prices and formulas are proposed design data. SPF50+ PA++++ is a sunscreen formulation target, not tested protection. Medicated patches have no invented active ingredient, strength or treatment directions. Packaging photos show representative concepts, not verified shade swatches. Checkout places no order and collects no payment or personal information.
 
-`index.html` — storefront and dialogs
+## Validation
 
-`style.css` — foundational layouts and shopping components
-
-`modern.css` — Dewelle visual direction and responsive motion treatments
-
-`app.js` — catalogue, product details, routine, shopping bag and notes
-
-`motion.js` — progressive motion enhancements and accessibility preferences
-
-`assets/` — optimized project-owned images
-
-`IMAGE-PROMPTS.json` — final generation prompts and provenance
-
-Brand-name trademark clearance and production product validation are outside this prototype.
-
-## Verification
-
-`node verify.cjs` checks real application logic for budget-aware routines, optional steps, delivery totals, quantity limits, product search/filtering, empty states, image references and brand names. JavaScript syntax checks passed. All nine images were inspected for subject and main packaging text. Browser layout and motion verification was blocked in this session because the supported browser could not verify its admin-enforced security policy; these remain unverified in the new design.
+Checks cover catalogue and combo integrity, skin/ingredient discovery, optional routine steps and budgets, shade-specific bags, shipping totals, quantity limits, wishlist actions, product-page rendering and image references. Final image review includes checking branding on background props. Live browser verification may be blocked by the browser's policy check; report it separately when unavailable.
